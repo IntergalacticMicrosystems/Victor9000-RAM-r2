@@ -1,0 +1,8 @@
+(version 1)
+
+# J1 card-edge fingers sit 0.25 mm from the tongue's bottom edge by design
+# (r1 geometry). Relax copper-to-edge for J1's pads ONLY; everything else
+# keeps the board's 0.3 mm copper-edge clearance.
+(rule "J1 finger edge clearance"
+   (constraint edge_clearance (min 0.2))
+   (condition "A.Type == 'Pad' && A.memberOfFootprint('J1')"))

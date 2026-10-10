@@ -1,0 +1,908 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-02T16:19:22",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [
+        {
+            "description": "C_0603_1608Metric doesn't match footprint given by symbol (Capacitor_SMD:C_0603_1608Metric)",
+            "items": [
+                {
+                    "description": "Footprint C1",
+                    "pos": {
+                        "x": 136.4,
+                        "y": 68.4125
+                    },
+                    "uuid": "54771472-5e4d-42a8-b954-1f9173473b9b"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint C1",
+                    "pos": {
+                        "x": 136.4,
+                        "y": 68.4125
+                    },
+                    "uuid": "54771472-5e4d-42a8-b954-1f9173473b9b"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "C_0603_1608Metric doesn't match footprint given by symbol (Capacitor_SMD:C_0603_1608Metric)",
+            "items": [
+                {
+                    "description": "Footprint C2",
+                    "pos": {
+                        "x": 136.6,
+                        "y": 85.5875
+                    },
+                    "uuid": "a3dca78e-5cc1-4425-9d14-da4966cee889"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint C2",
+                    "pos": {
+                        "x": 136.6,
+                        "y": 85.5875
+                    },
+                    "uuid": "a3dca78e-5cc1-4425-9d14-da4966cee889"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "C_0603_1608Metric doesn't match footprint given by symbol (Capacitor_SMD:C_0603_1608Metric)",
+            "items": [
+                {
+                    "description": "Footprint C3",
+                    "pos": {
+                        "x": 158.075,
+                        "y": 91.6375
+                    },
+                    "uuid": "5e8e4b59-f972-4654-bbf3-224011c86395"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint C3",
+                    "pos": {
+                        "x": 158.075,
+                        "y": 91.6375
+                    },
+                    "uuid": "5e8e4b59-f972-4654-bbf3-224011c86395"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "C_0603_1608Metric doesn't match footprint given by symbol (Capacitor_SMD:C_0603_1608Metric)",
+            "items": [
+                {
+                    "description": "Footprint C4",
+                    "pos": {
+                        "x": 101.425,
+                        "y": 94.3625
+                    },
+                    "uuid": "2ac3df74-3f33-4bdd-9957-7c3d1a1c8155"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint C4",
+                    "pos": {
+                        "x": 101.425,
+                        "y": 94.3625
+                    },
+                    "uuid": "2ac3df74-3f33-4bdd-9957-7c3d1a1c8155"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "C_0603_1608Metric doesn't match footprint given by symbol (Capacitor_SMD:C_0603_1608Metric)",
+            "items": [
+                {
+                    "description": "Footprint C5",
+                    "pos": {
+                        "x": 101.425,
+                        "y": 90.6375
+                    },
+                    "uuid": "89dd67e5-70dd-41e9-919a-1e2283cc08c5"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint C5",
+                    "pos": {
+                        "x": 101.425,
+                        "y": 90.6375
+                    },
+                    "uuid": "89dd67e5-70dd-41e9-919a-1e2283cc08c5"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "C_0603_1608Metric doesn't match footprint given by symbol (Capacitor_SMD:C_0603_1608Metric)",
+            "items": [
+                {
+                    "description": "Footprint C6",
+                    "pos": {
+                        "x": 112.925,
+                        "y": 95.3625
+                    },
+                    "uuid": "b21d4cea-b26f-471a-a734-8716988f7998"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint C6",
+                    "pos": {
+                        "x": 112.925,
+                        "y": 95.3625
+                    },
+                    "uuid": "b21d4cea-b26f-471a-a734-8716988f7998"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "C_0603_1608Metric doesn't match footprint given by symbol (Capacitor_SMD:C_0603_1608Metric)",
+            "items": [
+                {
+                    "description": "Footprint C7",
+                    "pos": {
+                        "x": 112.925,
+                        "y": 91.6375
+                    },
+                    "uuid": "b52265ba-8e6b-4ca0-88a8-ec9b8e623d53"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint C7",
+                    "pos": {
+                        "x": 112.925,
+                        "y": 91.6375
+                    },
+                    "uuid": "b52265ba-8e6b-4ca0-88a8-ec9b8e623d53"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "C_0603_1608Metric doesn't match footprint given by symbol (Capacitor_SMD:C_0603_1608Metric)",
+            "items": [
+                {
+                    "description": "Footprint C8",
+                    "pos": {
+                        "x": 130.325,
+                        "y": 97.3625
+                    },
+                    "uuid": "479395df-0cef-4420-832e-b6b8aae54f66"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint C8",
+                    "pos": {
+                        "x": 130.325,
+                        "y": 97.3625
+                    },
+                    "uuid": "479395df-0cef-4420-832e-b6b8aae54f66"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "C_0603_1608Metric doesn't match footprint given by symbol (Capacitor_SMD:C_0603_1608Metric)",
+            "items": [
+                {
+                    "description": "Footprint C9",
+                    "pos": {
+                        "x": 130.325,
+                        "y": 92.1375
+                    },
+                    "uuid": "7648d963-cf1e-4b7b-8a62-f3a2e17694d4"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint C9",
+                    "pos": {
+                        "x": 130.325,
+                        "y": 92.1375
+                    },
+                    "uuid": "7648d963-cf1e-4b7b-8a62-f3a2e17694d4"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "C_0603_1608Metric doesn't match footprint given by symbol (Capacitor_SMD:C_0603_1608Metric)",
+            "items": [
+                {
+                    "description": "Footprint C10",
+                    "pos": {
+                        "x": 118.945,
+                        "y": 83.475
+                    },
+                    "uuid": "9ac7ae5d-7cd2-4fd6-aa3e-ff27207e2517"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint C10",
+                    "pos": {
+                        "x": 118.945,
+                        "y": 83.475
+                    },
+                    "uuid": "9ac7ae5d-7cd2-4fd6-aa3e-ff27207e2517"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "C_0603_1608Metric doesn't match footprint given by symbol (Capacitor_SMD:C_0603_1608Metric)",
+            "items": [
+                {
+                    "description": "Footprint C11",
+                    "pos": {
+                        "x": 146.8375,
+                        "y": 85.725
+                    },
+                    "uuid": "e741020e-f43a-4291-9aa3-75775bed520b"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint C11",
+                    "pos": {
+                        "x": 146.8375,
+                        "y": 85.725
+                    },
+                    "uuid": "e741020e-f43a-4291-9aa3-75775bed520b"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "C_0603_1608Metric doesn't match footprint given by symbol (Capacitor_SMD:C_0603_1608Metric)",
+            "items": [
+                {
+                    "description": "Footprint C12",
+                    "pos": {
+                        "x": 127.2625,
+                        "y": 89.725
+                    },
+                    "uuid": "f8225b6c-85b3-498b-9ddf-c9429694ecd4"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint C12",
+                    "pos": {
+                        "x": 127.2625,
+                        "y": 89.725
+                    },
+                    "uuid": "f8225b6c-85b3-498b-9ddf-c9429694ecd4"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "C_0603_1608Metric doesn't match footprint given by symbol (Capacitor_SMD:C_0603_1608Metric)",
+            "items": [
+                {
+                    "description": "Footprint C13",
+                    "pos": {
+                        "x": 150.4875,
+                        "y": 96.58
+                    },
+                    "uuid": "62c0dadb-b413-4b68-96b1-b1eeaef25361"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint C13",
+                    "pos": {
+                        "x": 150.4875,
+                        "y": 96.58
+                    },
+                    "uuid": "62c0dadb-b413-4b68-96b1-b1eeaef25361"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "C_0603_1608Metric doesn't match footprint given by symbol (Capacitor_SMD:C_0603_1608Metric)",
+            "items": [
+                {
+                    "description": "Footprint C14",
+                    "pos": {
+                        "x": 143.6125,
+                        "y": 95.03
+                    },
+                    "uuid": "b52b05ee-dad0-4748-b6ba-7d5f531ef989"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint C14",
+                    "pos": {
+                        "x": 143.6125,
+                        "y": 95.03
+                    },
+                    "uuid": "b52b05ee-dad0-4748-b6ba-7d5f531ef989"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "C_0805_2012Metric doesn't match footprint given by symbol (Capacitor_SMD:C_0805_2012Metric)",
+            "items": [
+                {
+                    "description": "Footprint C15",
+                    "pos": {
+                        "x": 142.59,
+                        "y": 98.08
+                    },
+                    "uuid": "24deb4c4-97c3-46b3-8572-7d8e19c1b73c"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint C15",
+                    "pos": {
+                        "x": 142.59,
+                        "y": 98.08
+                    },
+                    "uuid": "24deb4c4-97c3-46b3-8572-7d8e19c1b73c"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "C_0805_2012Metric doesn't match footprint given by symbol (Capacitor_SMD:C_0805_2012Metric)",
+            "items": [
+                {
+                    "description": "Footprint C16",
+                    "pos": {
+                        "x": 139.9,
+                        "y": 67.4125
+                    },
+                    "uuid": "6f6b1d90-691b-40f2-8d91-da9c01491457"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint C16",
+                    "pos": {
+                        "x": 139.9,
+                        "y": 67.4125
+                    },
+                    "uuid": "6f6b1d90-691b-40f2-8d91-da9c01491457"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Victor Expansion Edge Connector doesn't match footprint given by symbol (v9k_r2:Victor Expansion Edge Connector)",
+            "items": [
+                {
+                    "description": "Footprint J1",
+                    "pos": {
+                        "x": 120.0,
+                        "y": 100.0
+                    },
+                    "uuid": "ed7fcbfa-297a-4efa-98a6-8a186ba595dd"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ",
+            "items": [
+                {
+                    "description": "Footprint J1",
+                    "pos": {
+                        "x": 120.0,
+                        "y": 100.0
+                    },
+                    "uuid": "ed7fcbfa-297a-4efa-98a6-8a186ba595dd"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint J1",
+                    "pos": {
+                        "x": 120.0,
+                        "y": 100.0
+                    },
+                    "uuid": "ed7fcbfa-297a-4efa-98a6-8a186ba595dd"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Pad net (unconnected-(J1-DT/~{R}-Pad12)) doesn't match net given by schematic (unconnected-(J1-DT{slash}~{R}-Pad12))",
+            "items": [
+                {
+                    "description": "Pad 12 [unconnected-(J1-DT/~{R}-Pad12)] of J1 on B.Cu",
+                    "pos": {
+                        "x": 133.97,
+                        "y": 105.08
+                    },
+                    "uuid": "b0946c20-1955-4991-8630-e7d5884c951e"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "PinHeader_1x02_P2.54mm_Horizontal doesn't match footprint given by symbol (Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal)",
+            "items": [
+                {
+                    "description": "Footprint JP1",
+                    "pos": {
+                        "x": 119.25,
+                        "y": 76.0
+                    },
+                    "uuid": "499e43db-10b3-4f0e-a331-16981672a2aa"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint JP1",
+                    "pos": {
+                        "x": 119.25,
+                        "y": 76.0
+                    },
+                    "uuid": "499e43db-10b3-4f0e-a331-16981672a2aa"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "R_Array_Convex_4x0603 doesn't match footprint given by symbol (Resistor_SMD:R_Array_Convex_4x0603)",
+            "items": [
+                {
+                    "description": "Footprint RN1",
+                    "pos": {
+                        "x": 104.555,
+                        "y": 79.025
+                    },
+                    "uuid": "fd136605-75b5-47ab-a025-fde14238422c"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint RN1",
+                    "pos": {
+                        "x": 104.555,
+                        "y": 79.025
+                    },
+                    "uuid": "fd136605-75b5-47ab-a025-fde14238422c"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "TSOP-II-44_10.16x18.41mm_P0.8mm doesn't match footprint given by symbol (Package_SO:TSOP-II-44_10.16x18.41mm_P0.8mm)",
+            "items": [
+                {
+                    "description": "Footprint U1",
+                    "pos": {
+                        "x": 136.5,
+                        "y": 76.5
+                    },
+                    "uuid": "6b959c1f-0bce-4f2b-b0fb-cd3f57067270"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint U1",
+                    "pos": {
+                        "x": 136.5,
+                        "y": 76.5
+                    },
+                    "uuid": "6b959c1f-0bce-4f2b-b0fb-cd3f57067270"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "TSSOP-20_4.4x6.5mm_P0.65mm doesn't match footprint given by symbol (Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm)",
+            "items": [
+                {
+                    "description": "Footprint U2",
+                    "pos": {
+                        "x": 163.0,
+                        "y": 93.0
+                    },
+                    "uuid": "da2d4f61-d1e3-464c-937d-2d12672c09f1"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint U2",
+                    "pos": {
+                        "x": 163.0,
+                        "y": 93.0
+                    },
+                    "uuid": "da2d4f61-d1e3-464c-937d-2d12672c09f1"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "TSSOP-24_4.4x7.8mm_P0.65mm doesn't match footprint given by symbol (Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm)",
+            "items": [
+                {
+                    "description": "Footprint U3",
+                    "pos": {
+                        "x": 107.0,
+                        "y": 93.0
+                    },
+                    "uuid": "a4b8486a-ff77-4096-b449-1c8c914b66eb"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint U3",
+                    "pos": {
+                        "x": 107.0,
+                        "y": 93.0
+                    },
+                    "uuid": "a4b8486a-ff77-4096-b449-1c8c914b66eb"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "TSSOP-24_4.4x7.8mm_P0.65mm doesn't match footprint given by symbol (Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm)",
+            "items": [
+                {
+                    "description": "Footprint U4",
+                    "pos": {
+                        "x": 118.5,
+                        "y": 93.0
+                    },
+                    "uuid": "5261dc6f-4918-4b22-a34e-6c06e4fc9b45"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint U4",
+                    "pos": {
+                        "x": 118.5,
+                        "y": 93.0
+                    },
+                    "uuid": "5261dc6f-4918-4b22-a34e-6c06e4fc9b45"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "TSSOP-24_4.4x7.8mm_P0.65mm doesn't match footprint given by symbol (Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm)",
+            "items": [
+                {
+                    "description": "Footprint U5",
+                    "pos": {
+                        "x": 135.9,
+                        "y": 93.0
+                    },
+                    "uuid": "e0951399-e7b6-49fa-8e2a-597972a7cebb"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint U5",
+                    "pos": {
+                        "x": 135.9,
+                        "y": 93.0
+                    },
+                    "uuid": "e0951399-e7b6-49fa-8e2a-597972a7cebb"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "SOIC-16_3.9x9.9mm_P1.27mm doesn't match footprint given by symbol (Package_SO:SOIC-16_3.9x9.9mm_P1.27mm)",
+            "items": [
+                {
+                    "description": "Footprint U6",
+                    "pos": {
+                        "x": 112.0,
+                        "y": 79.0
+                    },
+                    "uuid": "86123420-c608-4b68-8527-4d3f2988607a"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint U6",
+                    "pos": {
+                        "x": 112.0,
+                        "y": 79.0
+                    },
+                    "uuid": "86123420-c608-4b68-8527-4d3f2988607a"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "SOT-23-5 doesn't match footprint given by symbol (Package_TO_SOT_SMD:SOT-23-5)",
+            "items": [
+                {
+                    "description": "Footprint U7",
+                    "pos": {
+                        "x": 143.2,
+                        "y": 85.675
+                    },
+                    "uuid": "8fff0a6e-e693-476f-b551-1984bb3f7e61"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint U7",
+                    "pos": {
+                        "x": 143.2,
+                        "y": 85.675
+                    },
+                    "uuid": "8fff0a6e-e693-476f-b551-1984bb3f7e61"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "SOT-23-6 doesn't match footprint given by symbol (Package_TO_SOT_SMD:SOT-23-6)",
+            "items": [
+                {
+                    "description": "Footprint U8",
+                    "pos": {
+                        "x": 129.625,
+                        "y": 86.725
+                    },
+                    "uuid": "f06df0eb-a141-4676-99cd-fbab804f3778"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint U8",
+                    "pos": {
+                        "x": 129.625,
+                        "y": 86.725
+                    },
+                    "uuid": "f06df0eb-a141-4676-99cd-fbab804f3778"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "SOT-23 doesn't match footprint given by symbol (Package_TO_SOT_SMD:SOT-23)",
+            "items": [
+                {
+                    "description": "Footprint U9",
+                    "pos": {
+                        "x": 147.05,
+                        "y": 97.08
+                    },
+                    "uuid": "7d17b3ad-88ff-4407-9ea7-317a57a5ee8e"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint U9",
+                    "pos": {
+                        "x": 147.05,
+                        "y": 97.08
+                    },
+                    "uuid": "7d17b3ad-88ff-4407-9ea7-317a57a5ee8e"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        }
+    ],
+    "source": "Victor9000-RAM-r2.kicad_pcb",
+    "unconnected_items": [],
+    "violations": []
+}

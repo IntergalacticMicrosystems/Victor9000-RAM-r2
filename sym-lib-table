@@ -3,4 +3,5 @@
   (lib (name "Victor9000")(type "Legacy")(uri "${KIPRJMOD}/Victor9000.lib")(options "")(descr ""))
   (lib (name "eec")(type "Legacy")(uri "${KIPRJMOD}/IC_Maxim_DS1315-5+/eec.lib")(options "")(descr ""))
   (lib (name "Victor9000-RAM-Clock-rescue")(type "KiCad")(uri "${KIPRJMOD}/Victor9000-RAM-Clock-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "v9k_r2")(type "KiCad")(uri "${KIPRJMOD}/v9k_r2.kicad_sym")(options "")(descr "Victor9000-RAM-r2 project symbols (gen_sch.py)"))
 )

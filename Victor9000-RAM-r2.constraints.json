@@ -1,0 +1,553 @@
+{
+ "board": "/root/sync/Victor9000-RAM-r2/Victor9000-RAM-r2.kicad_pcb",
+ "nets": {
+  "gnd": [
+   "GND"
+  ],
+  "power": [
+   "+3V3",
+   "+5V"
+  ]
+ },
+ "footprints": [
+  {
+   "ref": "C1",
+   "locked": false,
+   "pad_count": 2,
+   "is_2pin_passive": true,
+   "rotation_free": true
+  },
+  {
+   "ref": "C10",
+   "locked": false,
+   "pad_count": 2,
+   "is_2pin_passive": true,
+   "rotation_free": true
+  },
+  {
+   "ref": "C11",
+   "locked": false,
+   "pad_count": 2,
+   "is_2pin_passive": true,
+   "rotation_free": true
+  },
+  {
+   "ref": "C12",
+   "locked": false,
+   "pad_count": 2,
+   "is_2pin_passive": true,
+   "rotation_free": true
+  },
+  {
+   "ref": "C13",
+   "locked": false,
+   "pad_count": 2,
+   "is_2pin_passive": true,
+   "rotation_free": true
+  },
+  {
+   "ref": "C14",
+   "locked": false,
+   "pad_count": 2,
+   "is_2pin_passive": true,
+   "rotation_free": true
+  },
+  {
+   "ref": "C15",
+   "locked": false,
+   "pad_count": 2,
+   "is_2pin_passive": true,
+   "rotation_free": true
+  },
+  {
+   "ref": "C16",
+   "locked": false,
+   "pad_count": 2,
+   "is_2pin_passive": true,
+   "rotation_free": true
+  },
+  {
+   "ref": "C2",
+   "locked": false,
+   "pad_count": 2,
+   "is_2pin_passive": true,
+   "rotation_free": true
+  },
+  {
+   "ref": "C3",
+   "locked": false,
+   "pad_count": 2,
+   "is_2pin_passive": true,
+   "rotation_free": true
+  },
+  {
+   "ref": "C4",
+   "locked": false,
+   "pad_count": 2,
+   "is_2pin_passive": true,
+   "rotation_free": true
+  },
+  {
+   "ref": "C5",
+   "locked": false,
+   "pad_count": 2,
+   "is_2pin_passive": true,
+   "rotation_free": true
+  },
+  {
+   "ref": "C6",
+   "locked": false,
+   "pad_count": 2,
+   "is_2pin_passive": true,
+   "rotation_free": true
+  },
+  {
+   "ref": "C7",
+   "locked": false,
+   "pad_count": 2,
+   "is_2pin_passive": true,
+   "rotation_free": true
+  },
+  {
+   "ref": "C8",
+   "locked": false,
+   "pad_count": 2,
+   "is_2pin_passive": true,
+   "rotation_free": true
+  },
+  {
+   "ref": "C9",
+   "locked": false,
+   "pad_count": 2,
+   "is_2pin_passive": true,
+   "rotation_free": true
+  },
+  {
+   "ref": "J1",
+   "locked": true,
+   "pad_count": 50,
+   "is_2pin_passive": false,
+   "rotation_free": false
+  },
+  {
+   "ref": "RN1",
+   "locked": false,
+   "pad_count": 8,
+   "is_2pin_passive": false,
+   "rotation_free": false
+  },
+  {
+   "ref": "SJ1",
+   "locked": false,
+   "pad_count": 2,
+   "is_2pin_passive": false,
+   "rotation_free": false
+  },
+  {
+   "ref": "U1",
+   "locked": true,
+   "pad_count": 44,
+   "is_2pin_passive": false,
+   "rotation_free": false
+  },
+  {
+   "ref": "U2",
+   "locked": true,
+   "pad_count": 20,
+   "is_2pin_passive": false,
+   "rotation_free": false
+  },
+  {
+   "ref": "U3",
+   "locked": true,
+   "pad_count": 24,
+   "is_2pin_passive": false,
+   "rotation_free": false
+  },
+  {
+   "ref": "U4",
+   "locked": true,
+   "pad_count": 24,
+   "is_2pin_passive": false,
+   "rotation_free": false
+  },
+  {
+   "ref": "U5",
+   "locked": true,
+   "pad_count": 24,
+   "is_2pin_passive": false,
+   "rotation_free": false
+  },
+  {
+   "ref": "U6",
+   "locked": true,
+   "pad_count": 16,
+   "is_2pin_passive": false,
+   "rotation_free": false
+  },
+  {
+   "ref": "U7",
+   "locked": false,
+   "pad_count": 5,
+   "is_2pin_passive": false,
+   "rotation_free": false
+  },
+  {
+   "ref": "U8",
+   "locked": false,
+   "pad_count": 6,
+   "is_2pin_passive": false,
+   "rotation_free": false
+  },
+  {
+   "ref": "U9",
+   "locked": false,
+   "pad_count": 3,
+   "is_2pin_passive": false,
+   "rotation_free": false
+  }
+ ],
+ "decoupling": [
+  {
+   "ref": "C1",
+   "power_net": "+3V3",
+   "gnd_net": "GND",
+   "ic_pins": [
+    {
+     "ref": "U1",
+     "pad": "11",
+     "pin_name": null,
+     "pin_type": null
+    }
+   ],
+   "max_distance_mm": 2.0
+  },
+  {
+   "ref": "C10",
+   "power_net": "+5V",
+   "gnd_net": "GND",
+   "ic_pins": [
+    {
+     "ref": "U6",
+     "pad": "16",
+     "pin_name": null,
+     "pin_type": null
+    }
+   ],
+   "max_distance_mm": 2.0
+  },
+  {
+   "ref": "C11",
+   "power_net": "+3V3",
+   "gnd_net": "GND",
+   "ic_pins": [
+    {
+     "ref": "U7",
+     "pad": "5",
+     "pin_name": null,
+     "pin_type": null
+    }
+   ],
+   "max_distance_mm": 2.0
+  },
+  {
+   "ref": "C12",
+   "power_net": "+3V3",
+   "gnd_net": "GND",
+   "ic_pins": [
+    {
+     "ref": "U8",
+     "pad": "5",
+     "pin_name": null,
+     "pin_type": null
+    }
+   ],
+   "max_distance_mm": 2.0
+  },
+  {
+   "ref": "C13",
+   "power_net": "+5V",
+   "gnd_net": "GND",
+   "ic_pins": [
+    {
+     "ref": "U9",
+     "pad": "3",
+     "pin_name": null,
+     "pin_type": null
+    }
+   ],
+   "max_distance_mm": 2.0
+  },
+  {
+   "ref": "C14",
+   "power_net": "+3V3",
+   "gnd_net": "GND",
+   "ic_pins": [
+    {
+     "ref": "U9",
+     "pad": "2",
+     "pin_name": null,
+     "pin_type": null
+    }
+   ],
+   "max_distance_mm": 2.0
+  },
+  {
+   "ref": "C15",
+   "power_net": "+5V",
+   "gnd_net": "GND",
+   "ic_pins": [
+    {
+     "ref": "J1",
+     "pad": "36",
+     "pin_name": null,
+     "pin_type": null
+    },
+    {
+     "ref": "J1",
+     "pad": "37",
+     "pin_name": null,
+     "pin_type": null
+    }
+   ],
+   "max_distance_mm": 3.0
+  },
+  {
+   "ref": "C16",
+   "power_net": "+3V3",
+   "gnd_net": "GND",
+   "ic_pins": [
+    {
+     "ref": "U1",
+     "pad": "11",
+     "pin_name": null,
+     "pin_type": null
+    }
+   ],
+   "max_distance_mm": 3.0
+  },
+  {
+   "ref": "C2",
+   "power_net": "+3V3",
+   "gnd_net": "GND",
+   "ic_pins": [
+    {
+     "ref": "U1",
+     "pad": "33",
+     "pin_name": null,
+     "pin_type": null
+    }
+   ],
+   "max_distance_mm": 2.0
+  },
+  {
+   "ref": "C3",
+   "power_net": "+3V3",
+   "gnd_net": "GND",
+   "ic_pins": [
+    {
+     "ref": "U2",
+     "pad": "20",
+     "pin_name": null,
+     "pin_type": null
+    }
+   ],
+   "max_distance_mm": 2.0
+  },
+  {
+   "ref": "C4",
+   "power_net": "+5V",
+   "gnd_net": "GND",
+   "ic_pins": [
+    {
+     "ref": "U3",
+     "pad": "1",
+     "pin_name": null,
+     "pin_type": null
+    }
+   ],
+   "max_distance_mm": 2.0
+  },
+  {
+   "ref": "C5",
+   "power_net": "+3V3",
+   "gnd_net": "GND",
+   "ic_pins": [
+    {
+     "ref": "U3",
+     "pad": "24",
+     "pin_name": null,
+     "pin_type": null
+    }
+   ],
+   "max_distance_mm": 2.0
+  },
+  {
+   "ref": "C6",
+   "power_net": "+5V",
+   "gnd_net": "GND",
+   "ic_pins": [
+    {
+     "ref": "U4",
+     "pad": "1",
+     "pin_name": null,
+     "pin_type": null
+    }
+   ],
+   "max_distance_mm": 2.0
+  },
+  {
+   "ref": "C7",
+   "power_net": "+3V3",
+   "gnd_net": "GND",
+   "ic_pins": [
+    {
+     "ref": "U4",
+     "pad": "24",
+     "pin_name": null,
+     "pin_type": null
+    }
+   ],
+   "max_distance_mm": 2.0
+  },
+  {
+   "ref": "C8",
+   "power_net": "+5V",
+   "gnd_net": "GND",
+   "ic_pins": [
+    {
+     "ref": "U5",
+     "pad": "1",
+     "pin_name": null,
+     "pin_type": null
+    }
+   ],
+   "max_distance_mm": 2.0
+  },
+  {
+   "ref": "C9",
+   "power_net": "+3V3",
+   "gnd_net": "GND",
+   "ic_pins": [
+    {
+     "ref": "U5",
+     "pad": "24",
+     "pin_name": null,
+     "pin_type": null
+    }
+   ],
+   "max_distance_mm": 2.0
+  },
+  {
+   "ref": "RN1",
+   "power_net": "GND",
+   "gnd_net": "GND",
+   "ic_pins": [
+    {
+     "ref": "U6",
+     "pad": "8",
+     "pin_name": null,
+     "pin_type": null
+    }
+   ],
+   "max_distance_mm": 6.0
+  },
+  {
+   "ref": "SJ1",
+   "power_net": "SEL128",
+   "gnd_net": "GND",
+   "ic_pins": [
+    {
+     "ref": "RN1",
+     "pad": "4",
+     "pin_name": null,
+     "pin_type": null
+    }
+   ],
+   "max_distance_mm": 6.0
+  },
+  {
+   "ref": "U7",
+   "power_net": "A19_N",
+   "gnd_net": "GND",
+   "ic_pins": [
+    {
+     "ref": "U1",
+     "pad": "40",
+     "pin_name": null,
+     "pin_type": null
+    }
+   ],
+   "max_distance_mm": 6.0
+  },
+  {
+   "ref": "U8",
+   "power_net": "DOE_N",
+   "gnd_net": "GND",
+   "ic_pins": [
+    {
+     "ref": "U5",
+     "pad": "22",
+     "pin_name": null,
+     "pin_type": null
+    }
+   ],
+   "max_distance_mm": 6.0
+  },
+  {
+   "ref": "U9",
+   "power_net": "+5V",
+   "gnd_net": "GND",
+   "ic_pins": [
+    {
+     "ref": "J1",
+     "pad": "37",
+     "pin_name": null,
+     "pin_type": null
+    }
+   ],
+   "max_distance_mm": 6.0
+  }
+ ],
+ "affinity": [
+  {
+   "ref": "RN1",
+   "owner": "J1",
+   "shared_nets": [
+    "BRD_N",
+    "BWR_N",
+    "IOM"
+   ]
+  },
+  {
+   "ref": "SJ1",
+   "owner": "U6",
+   "shared_nets": [
+    "SEL128"
+   ]
+  },
+  {
+   "ref": "U7",
+   "owner": "U1",
+   "shared_nets": [
+    "A19",
+    "A19_N"
+   ]
+  },
+  {
+   "ref": "U8",
+   "owner": "U4",
+   "shared_nets": [
+    "BRD_N",
+    "BWR_N",
+    "CE5_N"
+   ]
+  },
+  {
+   "ref": "U9",
+   "owner": null,
+   "shared_nets": []
+  }
+ ],
+ "escape": []
+}

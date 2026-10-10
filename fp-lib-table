@@ -1,4 +1,6 @@
 (fp_lib_table
-  (lib (name victor-exp)(type KiCad)(uri ${KIPRJMOD}/victor-exp.pretty)(options "")(descr ""))
-  (lib (name eec)(type KiCad)(uri ${KIPRJMOD}/IC_Maxim_DS1315-5+/eec.pretty)(options "")(descr ""))
+  (version 7)
+  (lib (name "victor-exp")(type "KiCad")(uri "${KIPRJMOD}/victor-exp.pretty")(options "")(descr ""))
+  (lib (name "eec")(type "KiCad")(uri "${KIPRJMOD}/IC_Maxim_DS1315-5+/eec.pretty")(options "")(descr ""))
+  (lib (name "v9k_r2")(type "KiCad")(uri "${KIPRJMOD}/v9k_r2.pretty")(options "")(descr "Victor9000-RAM-r2 project footprints, card edge extracted from r1 H1"))
 )

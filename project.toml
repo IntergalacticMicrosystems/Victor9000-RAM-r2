@@ -1,0 +1,116 @@
+[project]
+name = "Victor9000-RAM-r2"
+profile = "type2"       # JLCPCB-assembled from LCSC parts
+boards = 10
+stage = 4               # highest stage whose gate has passed. Stage 5 is routed (85/85 nets, kicad-cli DRC 0 violations, 0 unconnected, 2026-10-02) but NOT bumped: the render awaits human review. Stage 6 check-bom exits 0 ($141.28 / 10 boards); regenerate order_bom.csv at order time.
+# Stage 0 decisions: RAM only (no clock on r2); 2 layers (finest pitch is
+# 0.65 mm TSSOP / 0.8 mm TSOP-II, so F.Cu escape lanes exist); shrunk outline.
+# Stage 1: no blocks (PLAN.md section 5: the AMS1117 block is oversized for ~40 mA).
+
+# --- Stage 2: parts ---------------------------------------------------------
+# Symbols prefixed v9k_r2: live in the project library v9k_r2.kicad_sym, built
+# by gen_sch.py: U1/U3-U5 are the partbroker easyeda2kicad symbols (pin numbers
+# checked against the datasheets) with pin electrical types assigned; J1 is the
+# r1 connector symbol harvested from Victor9000-RAM-Clock.kicad_sch.
+
+[[parts]]
+refs = ["U1"]
+mpn = "IS62WV51216BLL-55TLI"
+lcsc = "C11315"
+symbol = "v9k_r2:IS62WV51216BLL-55TLI"
+footprint = "Package_SO:TSOP-II-44_10.16x18.41mm_P0.8mm"
+note = "512Kx16 SRAM used as 1Mx8. Symbol from partbroker easyeda2kicad:IS62WV51216BLL-55TLI; footprint is the KiCad stdlib TSOP-II-44 (44 pads, 0.8 mm, checked vs ISSI package table T Type II)."
+
+[[parts]]
+refs = ["U2"]
+mpn = "74LVC573APW,118"
+lcsc = "C6096"
+symbol = "74xx:74LS573"
+footprint = "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+note = "Standard '573 pinout, identical to Nexperia Table 2 (SOT360-1)."
+
+[[parts]]
+refs = ["U3", "U4", "U5"]
+mpn = "SN74LVC4245APWR"
+lcsc = "C7859"
+symbol = "v9k_r2:SN74LVC4245APWR"
+footprint = "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm"
+note = "Symbol from partbroker easyeda2kicad:SN74LVC4245APWR. A port = VCCA = 5 V; pin 23 = VCCB."
+
+[[parts]]
+refs = ["U6"]
+mpn = "74HCT151D,653"
+lcsc = "C547364"
+symbol = "74xx:74LS151"
+footprint = "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+note = "Runs at +5V. ~Z (pin 6) = Nexperia Y-bar = CE5_N."
+
+[[parts]]
+refs = ["U7"]
+mpn = "SN74LVC1G04DBVR"
+lcsc = "C19829658"
+symbol = "74xGxx:74LVC1G04"
+footprint = "Package_TO_SOT_SMD:SOT-23-5"
+note = "LCSC C19829658 is a TECH PUBLIC part sold under the TI MPN; pinout (1 NC, 2 A, 3 GND, 4 Y, 5 VCC) matches TI DBV."
+
+[[parts]]
+refs = ["U8"]
+mpn = "SN74LVC1G0832DBVR"
+lcsc = "C206101"
+symbol = "74xGxx:74LVC1G0832"
+footprint = "Package_TO_SOT_SMD:SOT-23-6"
+
+[[parts]]
+refs = ["U9"]
+mpn = "XC6206P332MR-G"
+lcsc = "C5446"
+symbol = "Regulator_Linear:XC6206PxxxMR"
+footprint = "Package_TO_SOT_SMD:SOT-23"
+
+[[parts]]
+refs = ["C1", "C2", "C3", "C4", "C5", "C6", "C7", "C8", "C9", "C10", "C11", "C12"]
+mpn = "CC0603KRX7R9BB104"
+lcsc = "C14663"
+symbol = "Device:C"
+footprint = "Capacitor_SMD:C_0603_1608Metric"
+note = "100 nF decoupling, one per IC power pin."
+
+[[parts]]
+refs = ["C13", "C14"]
+mpn = "CL10A105KB8NNNC"
+lcsc = "C15849"
+symbol = "Device:C"
+footprint = "Capacitor_SMD:C_0603_1608Metric"
+note = "1 uF, U9 input and output."
+
+[[parts]]
+refs = ["C15", "C16"]
+mpn = "CL21A106KAYNNNE"
+lcsc = "C15850"
+symbol = "Device:C"
+footprint = "Capacitor_SMD:C_0805_2012Metric"
+note = "10 uF bulk: C15 on +5V at J1, C16 on +3V3 near U1."
+
+[[parts]]
+refs = ["RN1"]
+mpn = "4D03WGJ0103T5E"
+lcsc = "C29718"
+symbol = "Device:R_Pack04"
+footprint = "Resistor_SMD:R_Array_Convex_4x0603"
+note = "4x10k isolated convex array; R1=1-8, R2=2-7, R3=3-6, R4=4-5 (UniOhm 4D03 circuit diagram)."
+
+[[parts]]
+refs = ["JP1"]
+mpn = "PZ254R-11-02P"
+lcsc = "C492410"
+symbol = "Jumper:Jumper_2_Open"
+footprint = "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
+note = "Right-angle 1x2 0.1 in through-hole header. Shunt fitted = 128K motherboard (enables 20000h-3FFFFh), open = 256K. Shunt not in BOM."
+
+[[parts]]
+refs = ["J1"]
+mpn = "card-edge fingers"
+source = "pcb-feature"
+symbol = "v9k_r2:Expansion_Connector"
+footprint = "v9k_r2:Victor Expansion Edge Connector"
+note = "Brownfield: symbol harvested from Victor9000-RAM-Clock.kicad_sch (power pins set passive), footprint extracted from the r1 board (ref H1) with edablock extract-fp; pads 1-50 confirmed."

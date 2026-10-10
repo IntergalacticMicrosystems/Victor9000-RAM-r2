@@ -1,0 +1,332 @@
+{
+  "board": "/root/sync/Victor9000-RAM-r2/Victor9000-RAM-r2.kicad_pcb",
+  "placed": 21,
+  "movable": 21,
+  "locked": 7,
+  "copper_tied": [],
+  "margin_mm": 0.5,
+  "escape_rings": [],
+  "score": {
+    "ratsnest_mst_mm": 1826.522
+  },
+  "decoupling": [
+    {
+      "ref": "C1",
+      "ic_pad": "U1.11",
+      "distance_mm": 2.515,
+      "budget_mm": 2.0,
+      "ok": false
+    },
+    {
+      "ref": "C10",
+      "ic_pad": "U6.16",
+      "distance_mm": 2.784,
+      "budget_mm": 2.0,
+      "ok": false
+    },
+    {
+      "ref": "C15",
+      "ic_pad": "J1.36",
+      "distance_mm": 7.267,
+      "budget_mm": 3.0,
+      "ok": false
+    },
+    {
+      "ref": "C16",
+      "ic_pad": "U1.11",
+      "distance_mm": 3.937,
+      "budget_mm": 3.0,
+      "ok": false
+    },
+    {
+      "ref": "C2",
+      "ic_pad": "U1.33",
+      "distance_mm": 2.77,
+      "budget_mm": 2.0,
+      "ok": false
+    },
+    {
+      "ref": "C3",
+      "ic_pad": "U2.20",
+      "distance_mm": 2.127,
+      "budget_mm": 2.0,
+      "ok": false
+    },
+    {
+      "ref": "C4",
+      "ic_pad": "U3.1",
+      "distance_mm": 2.127,
+      "budget_mm": 2.0,
+      "ok": false
+    },
+    {
+      "ref": "C5",
+      "ic_pad": "U3.24",
+      "distance_mm": 2.019,
+      "budget_mm": 2.0,
+      "ok": false
+    },
+    {
+      "ref": "C6",
+      "ic_pad": "U4.1",
+      "distance_mm": 2.019,
+      "budget_mm": 2.0,
+      "ok": false
+    },
+    {
+      "ref": "C7",
+      "ic_pad": "U4.24",
+      "distance_mm": 2.127,
+      "budget_mm": 2.0,
+      "ok": false
+    },
+    {
+      "ref": "C8",
+      "ic_pad": "U5.1",
+      "distance_mm": 2.127,
+      "budget_mm": 2.0,
+      "ok": false
+    },
+    {
+      "ref": "C9",
+      "ic_pad": "U5.24",
+      "distance_mm": 2.345,
+      "budget_mm": 2.0,
+      "ok": false
+    },
+    {
+      "ref": "RN1",
+      "ic_pad": "U6.8",
+      "distance_mm": 4.254,
+      "budget_mm": 6.0,
+      "ok": true
+    },
+    {
+      "ref": "U7",
+      "ic_pad": "U1.40",
+      "distance_mm": 5.248,
+      "budget_mm": 6.0,
+      "ok": true
+    },
+    {
+      "ref": "U8",
+      "ic_pad": "U5.22",
+      "distance_mm": 3.776,
+      "budget_mm": 6.0,
+      "ok": true
+    },
+    {
+      "ref": "U9",
+      "ic_pad": "J1.37",
+      "distance_mm": 11.995,
+      "budget_mm": 6.0,
+      "ok": false
+    },
+    {
+      "ref": "C11",
+      "ic_pad": "U7.5",
+      "distance_mm": 2.51,
+      "budget_mm": 2.0,
+      "ok": false
+    },
+    {
+      "ref": "C12",
+      "ic_pad": "U8.5",
+      "distance_mm": 4.053,
+      "budget_mm": 2.0,
+      "ok": false
+    },
+    {
+      "ref": "C13",
+      "ic_pad": "U9.3",
+      "distance_mm": 2.515,
+      "budget_mm": 2.0,
+      "ok": false
+    },
+    {
+      "ref": "C14",
+      "ic_pad": "U9.2",
+      "distance_mm": 3.347,
+      "budget_mm": 2.0,
+      "ok": false
+    },
+    {
+      "ref": "SJ1",
+      "ic_pad": "RN1.4",
+      "distance_mm": 2.504,
+      "budget_mm": 6.0,
+      "ok": true
+    }
+  ],
+  "violations": {
+    "decouple_over_budget": [
+      "C1",
+      "C10",
+      "C15",
+      "C16",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "U9",
+      "C11",
+      "C12",
+      "C13",
+      "C14"
+    ],
+    "unplaced": []
+  },
+  "per_part": [
+    {
+      "ref": "C1",
+      "x": 136.4,
+      "y": 68.4125,
+      "rot": 180.0,
+      "target": "U1.11"
+    },
+    {
+      "ref": "C10",
+      "x": 118.945,
+      "y": 83.475,
+      "rot": -90.0,
+      "target": "U6.16"
+    },
+    {
+      "ref": "C11",
+      "x": 146.8375,
+      "y": 85.725,
+      "rot": -90.0,
+      "target": "U7.5"
+    },
+    {
+      "ref": "C12",
+      "x": 127.2625,
+      "y": 89.725,
+      "rot": 180.0,
+      "target": "U8.5"
+    },
+    {
+      "ref": "C13",
+      "x": 150.4875,
+      "y": 96.58,
+      "rot": 90.0,
+      "target": "U9.3"
+    },
+    {
+      "ref": "C14",
+      "x": 143.6125,
+      "y": 95.03,
+      "rot": 90.0,
+      "target": "U9.2"
+    },
+    {
+      "ref": "C15",
+      "x": 142.59,
+      "y": 98.08,
+      "rot": 180.0,
+      "target": "J1.36"
+    },
+    {
+      "ref": "C16",
+      "x": 139.9,
+      "y": 67.4125,
+      "rot": 90.0,
+      "target": "U1.11"
+    },
+    {
+      "ref": "C2",
+      "x": 136.6,
+      "y": 85.5875,
+      "rot": -90.0,
+      "target": "U1.33"
+    },
+    {
+      "ref": "C3",
+      "x": 158.075,
+      "y": 91.6375,
+      "rot": -90.0,
+      "target": "U2.20"
+    },
+    {
+      "ref": "C4",
+      "x": 101.425,
+      "y": 94.3625,
+      "rot": 90.0,
+      "target": "U3.1"
+    },
+    {
+      "ref": "C5",
+      "x": 101.425,
+      "y": 90.6375,
+      "rot": -90.0,
+      "target": "U3.24"
+    },
+    {
+      "ref": "C6",
+      "x": 112.925,
+      "y": 95.3625,
+      "rot": 90.0,
+      "target": "U4.1"
+    },
+    {
+      "ref": "C7",
+      "x": 112.925,
+      "y": 91.6375,
+      "rot": -90.0,
+      "target": "U4.24"
+    },
+    {
+      "ref": "C8",
+      "x": 130.325,
+      "y": 97.3625,
+      "rot": -90.0,
+      "target": "U5.1"
+    },
+    {
+      "ref": "C9",
+      "x": 130.325,
+      "y": 92.1375,
+      "rot": -90.0,
+      "target": "U5.24"
+    },
+    {
+      "ref": "RN1",
+      "x": 104.555,
+      "y": 79.025,
+      "rot": 0.0,
+      "target": "U6.8"
+    },
+    {
+      "ref": "SJ1",
+      "x": 104.155,
+      "y": 82.725,
+      "rot": 0.0,
+      "target": "RN1.4"
+    },
+    {
+      "ref": "U7",
+      "x": 143.2,
+      "y": 85.675,
+      "rot": 0.0,
+      "target": "U1.40"
+    },
+    {
+      "ref": "U8",
+      "x": 129.625,
+      "y": 86.725,
+      "rot": 0.0,
+      "target": "U5.22"
+    },
+    {
+      "ref": "U9",
+      "x": 147.05,
+      "y": 97.08,
+      "rot": 0.0,
+      "target": "J1.37"
+    }
+  ]
+}
